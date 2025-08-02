@@ -20,16 +20,14 @@ This repository contains projects I completed through my fellowship with Break T
 ## Fall AI Studio Project placeholder
 
 ## Random Forest Model: Airbnb Review Score Prediction
-Trained linear regression and random forest models to predict the continuous `review_scores_value` for Airbnb listings based on selected host and listing features.
+A machine learning project predicting `review_scores_value` for Airbnb listings using linear regression and random forest models. This notebook follows the full machine learning lifecycle from problem definition, data preparation, modeling, and evaluation.
 
-Trained linear regression model saved using pickle (linear_regression_model.pkl)
-- Predicts review_scores_value using key features like accommodates, minimum_nights, availability_365, and host attributes.
+Lab8 Project.ipynb
+- Jupyter Notebook containing exploratory data analysis, data cleaning, model training (Linear Regression and Random Forest), evaluation metrics, and result visualizations.
+- The project focuses on predicting `review_scores_value` using key host and listing features.
 
-Trained random forest regressor saved using pickle (random_forest_model.pkl)
-- Provides improved prediction performance by capturing nonlinear relationships in the data.
-
-Cleaned and preprocessed Airbnb dataset with selected features (airbnb_data_cleaned.csv )
-- calculated_host_listings_count, accommodates, minimum_nights, availability_365, host_is_superhost, instant_bookable. Missing values handled, categorical variables encoded, and ready for modeling.
+Processed Airbnb data (airbnbListingsData.zip)
+- `calculated_host_listings_count`, `accommodate`s, `minimum_nights`, `availability_365`, `host_is_superhost`, `instant_bookable`. Missing values handled, categorical variables encoded, and ready for modeling.
 
 ## Logistic Regression Model: Airbnb Superhost Prediction
 Trained logistic regression model and corresponding dataset used to predict whether an Airbnb is labeled a **Superhost**
